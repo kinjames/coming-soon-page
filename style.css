@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+main {
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top  left;
+    background-size: contain;
+}
+
+span {
+    font-size: 60px;
+    display: block;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+h1 {
+    font-size: 60px;
+    display: block;
+    line-height: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+form {
+    color: hsl(0, 36%, 70%);
+    display: flex;
+}
+
+i {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    margin: 80px 100px;
+}
+
+.img-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.para {
+    color: hsl(0, 36%, 70%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+
+
+
+.text-input {
+    width: 350px;
+    height: 40px;
+    font-family: inherit;
+    padding: 25px;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid hsl(0, 36%, 70%);
+    background-color: #fff;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 100px;
+
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+    opacity: 1; 
+}
+  
+:-ms-input-placeholder { 
+    color: hsl(0, 36%, 70%);
+}
+  
+::-ms-input-placeholder { 
+    color: hsl(0, 36%, 70%);
+}
+
+.btn {
+    width: 100px;
+    height: 52px;
+    font-family: inherit;
+    position: absolute;
+    display: block;
+    margin-left: 270px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(135deg,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.img {
+    width: 50%;
+    height: 100vh;
+}
+
+.img img {
+    width: 100%;
+    height: 100vh;
+}
+
+.para {
+    width: 70%;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (max-width:600px) {
+    html,body,main{
+        width: 100%;
+    }
+
+    .logo {
+        position: unset;
+    }
+
+    .logo img {
+        position: unset;
+        margin: 30px;
+    }
+
+    .container {
+        width: 100%;
+    }
+    .btn{
+        width: 20%;
+    }
+
+    .img-text{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .img{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .img img {
+        height: 40vh;
+    }
+
+    .text{
+        width: 100%;
+        margin: unset;
+        padding: 30px;
+    }
+
+    .text-input{
+        width: 80%;
+    }
+
+    .para{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .btn {
+        margin-left: 220px;
+    }
+
+    h1{
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 45px;
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
+
+    span {
+        font-size: 35px;
+    }
+
+    
+}
