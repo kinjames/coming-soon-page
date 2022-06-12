@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profilecardcomponent-SWdo_uYhhd)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-8mZda6E31L)
 - Live Site URL: [Github](https://kinjames.github.io/coming-soon-page/)
 
 ## My process
